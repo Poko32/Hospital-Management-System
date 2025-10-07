@@ -149,7 +149,7 @@ class hospital():
 
 
     def dbFun(self):
-        self.con = pymysql.connect(host="localhost", user="root", passwd="admin", database="rec")
+        self.con = pymysql.connect(host="localhost", user="root", passwd="", database="hospital")
         self.cur = self.con.cursor()
 
     def clearFun(self):
